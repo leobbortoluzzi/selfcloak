@@ -1,0 +1,17 @@
+name = "selfcloak"
+main = "_worker.js"
+compatibility_date = "2025-01-01"
+
+[[kv_namespaces]]
+binding = "KV"
+id = "YOUR_KV_NAMESPACE_ID"
+
+[vars]
+# ─── Required Variables ─────────────────────────────
+# Generate a random string (e.g., UUID) and paste it here. It's used to sign login sessions.
+SECRET = ""
+
+# ─── Optional Variables (Supabase) ──────────────────
+# Fill these if you want to store logs and whitepages in Supabase instead of KV
+SUPABASE_URL = ""
+SUPABASE_KEY = ""
