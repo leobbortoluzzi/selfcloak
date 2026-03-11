@@ -10,8 +10,11 @@ id = "YOUR_KV_NAMESPACE_ID"
 # ─── Required Variables ─────────────────────────────
 # Generate a random string (e.g., UUID) and paste it here. It's used to sign login sessions.
 SECRET = ""
+PROJECT_NAME = "default"
 
-# ─── Optional Variables (Supabase) ──────────────────
-# Fill these if you want to store logs and whitepages in Supabase instead of KV
-SUPABASE_URL = ""
-SUPABASE_KEY = ""
+# ─── D1 Database ──────────────────
+# Storing logs and selfpage files
+[[d1_databases]]
+binding = "DB"
+database_name = "selfcloak_db"
+database_id = "test-d1-id"
