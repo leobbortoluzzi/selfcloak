@@ -72,8 +72,6 @@ Configure em **Cloudflare Dashboard → Worker → Settings → Variables and Se
 | Variável | Obrigatória | Descrição |
 |---|---|---|
 | `SECRET` | ✅ | String aleatória longa para assinar tokens JWT |
-| `SUPABASE_URL` | ✅ | URL do projeto Supabase para logs |
-| `SUPABASE_KEY` | ✅ | Chave anon do Supabase |
 
 ---
 
@@ -88,7 +86,7 @@ Na primeira vez, você será solicitado a criar uma senha. O painel permite:
 - Gerenciar regras de bloqueio
 - Ativar presets de plataforma
 - Injetar scripts no `<head>` e `<body>`
-- Gerenciar whitepages customizadas
+- Gerenciar selfpages customizadas
 - Visualizar logs de visitas
 
 ---
